@@ -1,0 +1,60 @@
+.loginContainer {
+  max-width: 420px;
+  margin: 4rem auto;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  /* Borde sutil con un tono rosado/violeta inspirado en el logo de Orvio */
+  border: 2px solid #b19cd9; 
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(177, 156, 217, 0.15);
+}
+
+.loginTitle {
+  font-family: var(--font-heading, sans-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #111111;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column; /* Esto fuerza a que vayan uno debajo del otro */
+  gap: 1.2rem;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ffffff;
+  color: #111111;
+  box-sizing: border-box; /* Asegura que respete el ancho del contenedor */
+}
+
+.loginInput:focus {
+  border-color: #b19cd9;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  /* Verde exacto que usás en el botón de Suscribirme del footer */
+  background-color: #008f5d; 
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.loginButton:hover {
+  opacity: 0.9;
+}

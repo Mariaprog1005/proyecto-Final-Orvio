@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares Bluetooth Pro",
+    "precio": 48500,
+    "categoria": "Audio",
+    "stock": 20,
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido, 30 horas de batería y micrófono integrado.",
+    "imagen": "https://i.ibb.co/WWpTYJmH/auricular3.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Gamer RGB",
+    "precio": 22900,
+    "categoria": "tecnologia",
+    "stock": 20,
+    "descripcion": "Mouse óptico de 7200 DPI con iluminación RGB y 6 botones programables.",
+    "imagen": "https://i.ibb.co/jvyjyvWQ/mouse-gamer.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico TKL",
+    "precio": 67800,
+    "categoria": "tecnologia",
+    "stock": 20,
+    "descripcion": "Teclado mecánico compacto con switches rojos, retroiluminado y cable desmontable.",
+    "imagen": "https://i.ibb.co/0R9kCXgq/Teclado-Mecanico.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Cargador USB-C 65W",
+    "precio": 31200,
+    "categoria": "accesorios",
+    "stock": 20,
+    "descripcion": "Cargador rápido GaN de 65W compatible con notebooks, tablets y celulares.",
+    "imagen": "https://i.ibb.co/TBgKLrSd/Cargador-65-W.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Smartwatch Fit S2",
+    "precio": 89900,
+    "categoria": "tecnologia",
+    "stock": 20,
+    "descripcion": "Reloj inteligente con monitor cardíaco, GPS y resistencia al agua 5 ATM.",
+    "imagen": "https://i.ibb.co/67K4gmhs/Reloj-Inteligente.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Parlante Bluetooth Resistente",
+    "precio": 39900,
+    "categoria": "Audio",
+    "stock": 20,
+    "descripcion": "Parlante portátil IPX7 con 12 horas de autonomía y sonido estéreo.",
+    "imagen": "https://i.ibb.co/TBjL4bMj/parlante-xp7.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Webcam Full HD 1080p",
+    "precio": 27500,
+    "categoria": "tecnologia",
+    "stock": 20,
+    "descripcion": "Webcam con micrófono doble y enfoque automático, ideal para clases y reuniones.",
+    "imagen": "https://i.ibb.co/hx8P0X0C/Camara-Web.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Power Bank 20000 mAh",
+    "precio": 35400,
+    "categoria": "accesorios",
+    "stock": 20,
+    "descripcion": "Batería externa de alta capacidad con carga rápida y dos salidas USB.",
+    "imagen": "https://i.ibb.co/6JJMHdcP/Power-Ban-K.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Monitor Gamer Tcl 25",
+    "precio": 345000,
+    "categoria": "tecnologia",
+    "stock": 20,
+    "descripcion": "Con altura ajustable Es reclinableCon pantalla QD-Mini LED Con resolución FHD (1920 px x 1080 px).",
+    "imagen": "https://i.ibb.co/6c8Lw8M7/monitor-tcl.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Camara Digital 4K Uhd Q8 ",
+    "precio": 85000,
+    "categoria": "accesorios",
+    "stock": 20,
+    "descripcion": "Camara Digital Blanco 4k Uhd Q8 Pantalla Ips 2 Giro 180° 64mp X16 Orvio.",
+    "imagen": "https://i.ibb.co/FbpmRC3Y/camara4K.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Auriculares Traductores Inteligentes con IA",
+    "precio": 68000,
+    "categoria": "audio",
+    "stock": 20,
+    "descripcion": "Auriculares Traductores Yyk Q16 (con Traducción Ia) - 144 Id.",
+    "imagen": "https://i.ibb.co/bg7T2NXJ/auricular2.webp"
+  },
+  {
+    "id": 12,
+    "nombre": "Secador De Zapatillas Eléctrico",
+    "precio": 27000,
+    "categoria": "accesorios",
+    "stock": 20,
+    "descripcion": "Secador Zapatillas Portátil Anti Humedad Plegable Compacto.",
+    "imagen": "https://i.ibb.co/pBDJjWL8/electro1.webp"
+  }
+]

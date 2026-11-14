@@ -1,0 +1,33 @@
+.opinionesContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.listaOpiniones {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.opinionCard {
+  padding: 1rem;
+  background: var(--clr-card-bg);
+  border: 1px solid var(--clr-border);
+  border-radius: 12px;
+}
+
+.headerOpinion {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.cargando,
+.error {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--clr-muted);
+}

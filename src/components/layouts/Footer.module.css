@@ -1,0 +1,120 @@
+.footer-footer {
+  margin-top: auto;
+  border-top: 1px solid var(--clr-border);
+  padding: 2.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--clr-bg);
+  width: 100%;
+  align-items: center; /* 👈 Centra todo el contenido internamente */
+}
+
+/* Forzamos que las 3 columnas se acomoden en 3 columnas iguales en la misma línea */
+.footer-columnas {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Centra el bloque de ENLACES exactamente en su celda */
+.footer-columnas > div:nth-child(2) {
+  justify-self: center;
+}
+
+.footer-titulo {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.footer-texto,
+.footer-lista {
+  font-size: 0.8rem;
+  color: var(--clr-muted);
+}
+
+.footer-lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-footerLink {
+  color: var(--clr-muted);
+  transition: color 0.2s ease;
+}
+
+.footer-footerLink:hover {
+  color: var(--clr-text);
+}
+
+/* Estilos para el formulario de Newsletter en línea */
+.footer-newsletter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  margin-top: 0.5rem;
+}
+
+.footer-input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--clr-border);
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+}
+
+.footer-boton {
+  padding: 0.4rem 0.8rem;
+  background-color: var(--clr-success);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.footer-copyrightContainer {
+  text-align: center;
+  border-top: 1px solid var(--clr-border);
+  padding-top: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-copyright {
+  font-size: 0.7rem;
+  color: var(--clr-muted);
+}
+
+.footer-brand {
+  color: var(--clr-text);
+  font-weight: 600;
+}
+
+/* Responsivo para celulares (si la pantalla es chica, sí bajan a una columna) */
+@media (max-width: 768px) {
+  .footer-columnas {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .footer-newsletter {
+    justify-content: center;
+  }
+}

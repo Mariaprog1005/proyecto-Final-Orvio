@@ -1,0 +1,146 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.title {
+  font-family: var(--font-heading);
+  margin-bottom: 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--clr-border);
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  padding: 0.6rem 1.25rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--clr-muted);
+  cursor: pointer;
+}
+
+.active {
+  color: var(--clr-text);
+  border-bottom-color: var(--clr-text);
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+}
+
+.btnPrimary,
+.btnOutline,
+.btnDanger {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.btnPrimary {
+  background: var(--clr-text);
+  color: var(--clr-bg);
+  border: 1px solid var(--clr-text);
+}
+
+.btnOutline {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  border: 1px solid var(--clr-border);
+}
+
+.btnOutline:hover {
+  border-color: var(--clr-border-hover);
+}
+
+.btnDanger {
+  background: var(--clr-bg);
+  color: #dc2626;
+  border: 1px solid #fecaca;
+}
+
+.btnDanger:hover {
+  background: #fef2f2;
+}
+
+.emptyText {
+  color: var(--clr-muted);
+  padding: 2rem 0;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--clr-border);
+}
+
+.productImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 100;
+}
+
+.modalContent {
+  background: var(--clr-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.btnClose {
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
