@@ -7,7 +7,6 @@ const FormProducto = (
   }) => {
   return (
     <form onSubmit={manejarEnvio}>
-      <h3>Agregar Nuevo Producto</h3>
       <div>
         <label>Nombre:</label>
         <input 

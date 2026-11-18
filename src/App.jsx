@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Registro from "./pages/Registro";
 import RutaProtegida from "./components/products/RutaProtegida";
 import Panel from "./pages/Panel";
+import SobreNosotros from './pages/SobreNosotros';
+
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
           <Route path="/politica-de-privacidad" element={<PoliticaPrivacidad />} />
           <Route path="/login" element={<Login />} />
           <Route path="/registro" element={<Registro />} />
+          <Route path="/sobre-nosotros" element={<SobreNosotros />} />
         </Route>
 
         {/* Ruta protegida del panel (independiente del Layout de clientes) */}

@@ -1,6 +1,6 @@
 const PoliticaPrivacidad = () => {
   return (
-    <div className="layout-content" style={{ maxWidth: "800px", margin: "0 auto" }}>
+    <div className="layout-content" style={{ maxWidth: "800px", margin: "2rem auto", border: "2px solid #9b87f5", borderRadius: "12px", padding: "2rem", background: "#fff" }}>
       <h1>Política de Privacidad</h1>
       
       <p style={{ color: "var(--clr-muted)", marginBottom: "1.5rem" }}>

@@ -11,34 +11,13 @@ import fotoLorena from '../../assets/lorenaPaz.jpg';
 
 const empresa = {
   nombre: 'Orvio',
-  descripcion: 'Tecnología de calidad con atención personalizada por WhatsApp.',
-  direccion: 'Belgrano 6424, José León Suárez, Pcia. de Buenos Aires',
+  descripcion: 'Atención personalizada por WhatsApp.',
+  direccion: 'Belgrano 6424, José León Suárez, Bs. As.',
   telefono: '+54 11 6250 6608',
   horario: 'Lunes a viernes de 9 a 18 hs',
 };
 
-/*
-const equipo = [
-  { 
-    id: 1, 
-    nombre: 'Maria Lopez', 
-    rol: 'Desarrolladora front-end', 
-    imagen: fotoMaria 
-  },
-  { 
-    id: 2, 
-    nombre: 'Rosana Scorzo', 
-    rol: 'Dueña de la tienda', 
-    imagen: fotoRosana 
-  },
-  { 
-    id: 3, 
-    nombre: 'Lorena Paz', 
-    rol: 'Atención al cliente', 
-    imagen: fotoLorena 
-  },
-];
-*/
+
 
 const Footer = () => {
   const anioActual = new Date().getFullYear();
@@ -67,14 +46,14 @@ const Footer = () => {
         </section>
 
         <section>
-          <h4 className={styles['footer-titulo']}>Enlaces</h4>
-          <ul className={styles['footer-lista']}>
-            <li><Link to="/productos" className={styles['footer-footerLink']}>Productos</Link></li>
-            <li><Link to="/carrito" className={styles['footer-footerLink']}>Carrito</Link></li>
-            <li><Link to="/politica-de-privacidad" className={styles['footer-footerLink']}>Política de privacidad</Link></li>
-          </ul>
-        </section>
-
+  <h4 className={styles['footer-titulo']}>Ayuda</h4>
+  <ul className={styles['footer-lista']}>
+    <li><Link to="/productos" className={styles['footer-footerLink']}>Productos</Link></li>
+    <li><Link to="/carrito" className={styles['footer-footerLink']}>Carrito</Link></li>
+    <li><Link to="/sobre-nosotros" className={styles['footer-footerLink']}>Sobre nosotros</Link></li>
+    <li><Link to="/politica-de-privacidad" className={styles['footer-footerLink']}>Política de privacidad</Link></li>
+  </ul>
+</section>
         <section>
           <h4 className={styles['footer-titulo']}>Newsletter</h4>
           {suscripto ? (

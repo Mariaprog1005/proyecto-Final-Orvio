@@ -12,7 +12,7 @@
 .tabs {
   display: flex;
   gap: 0.5rem;
-  border-bottom: 1px solid var(--clr-border);
+  border-bottom: 1px solid #9b87f5; /* Borde violeta en las solapas */
   margin-bottom: 1.5rem;
 }
 
@@ -57,29 +57,35 @@
 }
 
 .btnPrimary {
-  background: var(--clr-text);
-  color: var(--clr-bg);
-  border: 1px solid var(--clr-text);
+  background: #9b87f5; /* Fondo violeta */
+  color: #000000;
+  border: 1px solid #9b87f5; /* Borde violeta */
+}
+
+.btnPrimary:hover {
+  background: #8068e9;
 }
 
 .btnOutline {
   background: var(--clr-bg);
   color: var(--clr-text);
-  border: 1px solid var(--clr-border);
+  border: 1px solid #9b87f5; /* Borde violeta en los botones tipo Editar */
 }
 
 .btnOutline:hover {
-  border-color: var(--clr-border-hover);
+  border-color: #7c65d6;
+  background: #f5f3ff;
 }
 
 .btnDanger {
   background: var(--clr-bg);
   color: #dc2626;
-  border: 1px solid #fecaca;
+  border: 1px solid #9b87f5;
 }
 
 .btnDanger:hover {
-  background: #fef2f2;
+  background: #f5f3ff;       
+  border-color: #7c65d6;
 }
 
 .emptyText {
@@ -100,7 +106,7 @@
 .table td {
   padding: 0.75rem;
   text-align: left;
-  border-bottom: 1px solid var(--clr-border);
+  border-bottom: 1px solid #9b87f5; /* Líneas divisorias de productos en violeta */
 }
 
 .productImg {
@@ -123,6 +129,7 @@
 
 .modalContent {
   background: var(--clr-bg);
+  border: 2px solid #9b87f5; /* Borde violeta para la ventana del modal */
   border-radius: 12px;
   padding: 1.5rem;
   width: 100%;

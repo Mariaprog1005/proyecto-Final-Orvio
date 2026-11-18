@@ -61,9 +61,9 @@ const Item = ({ id, nombre, precio, imagen, categoria, descripcion, stock, detal
     );
   }
 
-  // Vista de tarjeta (listado /productos)
+ // Vista de tarjeta (listado /productos)
   return (
-    <article className="item-card">
+    <article className="item-card" style={{ border: '2px solid #9b87f5', borderRadius: '12px', padding: '1rem', background: '#fff' }}>
       <Link to={`/producto/${id}`} className="item-imageLink">
         <img src={imagen} alt={nombre} className="item-image" />
       </Link>
@@ -76,14 +76,13 @@ const Item = ({ id, nombre, precio, imagen, categoria, descripcion, stock, detal
       <div className="item-actions">
         <BotonFavorito />
 
-        <div className="item-counter">
-          <button onClick={decrementar} className="item-counterBtn">-</button>
-          <span className="item-countText">{contador}</span>
-          <button onClick={incrementar} className="item-counterBtn">+</button>
+        <div className="item-counter" style={{ border: '1px solid #9b87f5', borderRadius: '8px', display: 'flex', overflow: 'hidden' }}>
+          <button onClick={decrementar} className="item-counterBtn" style={{ border: 'none', background: 'transparent', padding: '0.4rem 0.8rem', cursor: 'pointer', color: '#333', fontWeight: 'bold' }}>-</button>
+          <span className="item-countText" style={{ padding: '0.4rem 0.6rem', display: 'flex', alignItems: 'center' }}>{contador}</span>
+          <button onClick={incrementar} className="item-counterBtn" style={{ border: 'none', background: 'transparent', padding: '0.4rem 0.8rem', cursor: 'pointer', color: '#333', fontWeight: 'bold' }}>+</button>
         </div>
       </div>
     </article>
   );
 };
-
 export default Item;

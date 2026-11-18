@@ -35,7 +35,7 @@ const Productos = () => {
       <h2>Nuestros Productos</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
         {productos.map((prod) => (
-          <div key={prod.id} style={{ border: '1px solid #ccc', padding: '1rem', borderRadius: '8px' }}>
+          <div key={prod.id} style={{ border: '2px solid #9b87f5', padding: '1rem', borderRadius: '12px', background: 'var(--clr-bg)' }}>
             {prod.imagen && <img src={prod.imagen} alt={prod.nombre} style={{ width: '100%', height: '150px', objectFit: 'cover' }} />}
             <h3>{prod.nombre}</h3>
             <p>Precio: ${prod.precio}</p>
